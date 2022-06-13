@@ -1,4 +1,230 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+:root {
+  --basic-black: #000000;
+  --basic-gray: #283136;
+  --basic-white: #ffffff;
+  --basic-light-gray: #666666;
+  --basic-neutral-gray: #444444;
+  --basic-background-gray: #eeeeee;
 }
+.page-body {
+  font-family: "Roboto", Arial, sans-serif;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--basic-background-gray);
+  min-width: 100vw;
+  height: 65px;
+}
+h1,
+h2 {
+  display: none;
+}
+h2,
+h3 {
+  color: var(--basic-black);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--basic-black);
+  height: 65px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  min-width: 1160px;
+  margin-top: 50px;
+}
+.nav-menu__logo img {
+  position: relative;
+  left: -15px;
+  top: -10px;
+  height: 55px;
+}
+.nav-menu a {
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.nav-menu__link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header__nav-menu {
+}
+.main-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 45px;
+  width: 600px;
+  height: 30px;
+}
+.nav-menu___list {
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main {
+  width: 1160px;
+}
+.main__slider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 100vw;
+  background-color: var(--basic-background-gray);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 430px;
+  padding-top: 30px;
+}
+.main__slider-wrapper-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+  max-width: 400px;
+  height: 430px;
+}
+
+.main-slider__title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  margin: 0;
+}
+.main-text {
+  color: var(--basic-light-gray);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--basic-white);
+  border-radius: 3px;
+  border: none;
+  width: 160px;
+  height: 50px;
+  background: #fb565a;
+  text-align: center;
+  line-height: 18px;
+}
+.main__slider-link {
+  width: 240px;
+}
+.main-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.main-features___list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1160px;
+  margin: 60px 0px 60px;
+}
+.main-features___list-item {
+}
+.main-features__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.list-item__button_color_red {
+  margin-top: 10px;
+}
+.list-item__button_color_green {
+  margin-top: 10px;
+  background-color: #00ca74;
+}
+.list-item__button_color_yellow {
+  margin-top: 10px;
+  background-color: #efc849;
+}
+.main-border {
+  width: 1300px;
+  height: 2px;
+  background: #eee;
+  margin: 0 auto;
+}
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.benefits__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1160px;
+}
+.benefits__content {
+  min-width: 760px;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+  max-width: 400px;
+  height: 430px;
+}
+.benefits__title {
+  color: var(--basic-black);
+}
+.main-title {
+  color: var(--basic-gray);
+}
+.benefits__table-text {
+  color: var(--basic-black);
+}
+.footer {
+  display: none;
+}
+.footer__contacts {
+}
+.footer__socials {
+}
+.footer__socials-text {
+}
+.popup {
+  display: none;
+}
+.popup-link {
+}
+.popup__link {
+}
+.popup__text {
+}
+.popup__button {
+}
+
