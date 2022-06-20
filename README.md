@@ -1,3 +1,3 @@
 # Nёrds
  
-https://alexmenov.github.io/Smart-Fast/
+https://alexmenov.github.io/N-rds
