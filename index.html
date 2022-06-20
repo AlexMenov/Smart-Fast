@@ -15,7 +15,7 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mainstyle.css">
-    <title>Smart&Fast</title>
+    <title>Дизайн-студия «Nёrds»</title>
 </head>
 
 <body class="page-body">
@@ -85,6 +85,7 @@
         </section> -->
 
         <section class="main-features">
+            <div class="main-features__wrapper">
                 <h2>Наши услуги</h2>
                 <ul class="main-features___list">
                     <li class="list-item main-features___list-item">
@@ -110,6 +111,7 @@
                     </li>
                 </ul>
                 <div class="main-border"></div>
+            </div>
         </section>
 
 
@@ -128,22 +130,22 @@
                     <p class="main-title">
                         Выполняем заказы на разработку:
                     </p>
-                    <ul class="main-list">
+                    <ul class="main-list benefits__list">
                         <li class="list-item">
-                            <div></div>
+                            <div class="list-item__narrow"></div>
                             <p class="main-text">Веб-сайты любой сложности</p>
                         </li>
                         <li class="list-item">
-                            <div></div>
+                            <div class="list-item__narrow"></div>
                             <p class="main-text">Мобильных приложений для iOS и Android</p>
                         </li>
                         <li class="list-item">
-                            <div></div>
-                            <p>Слайдшоу и видео для корпоративных презентаций</p>
+                            <div class="list-item__narrow"></div>
+                            <p class="main-text">Слайдшоу и видео для корпоративных презентаций</p>
                         </li>
                     </ul>
                 </div>
-                <table>
+                <table width="400">
                     <thead>
                         <tr>
                             <th colspan="3"><img src="images/logo/nerds-logo2.png" width="400" alt="Логотип"></th>
@@ -175,80 +177,90 @@
                         </tr>
                     </tfoot>
                 </table>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="projects__wrapper">
+                <h2>Наши проекты</h2>
+                <div class="main-border"></div>
+                <ul class="main-list">
+                    <li class="list-item">
+                        <a href="#"><img src="images/projects/htmlacademy.png" alt="htmlacademy"></a>
+                    </li>
+                    <div class="vertical-border"></div>
+                    <li class="list-item">
+                        <a href="#"><img src="images/projects/barbershop.png" alt="barbershop"></a>
+                    </li>
+                    <div class="vertical-border"></div>
+                    <li class="list-item">
+                        <a href="#"><img src="images/projects/mishka.png" alt="mishka"></a>
+                    </li>
+                    <div class="vertical-border"></div>
+                    <li class="list-item">
+                        <a href="#"><img src="images/projects/pink.png" alt="pink"></a>
+                    </li>
+                </ul>
                 <div class="main-border"></div>
             </div>
         </section>
-        <!--  
-        <h2>Наши проекты</h2>
-        <ul class="main-list">
-            <li class="list-item">
-                <img src="images/projects/htmlacademy.png" alt="htmlacademy">
-            </li>
-            <li class="list-item">
-                <img src="images/projects/barbershop.png" alt="barbershop">
-            </li>
-            <li class="list-item">
-                <img src="images/projects/mishka.png" alt="mishka">
-            </li>
-            <li class="list-item">
-                <img src="images/projects/pink.png" alt="pink">
-            </li>
-            <div class="main-border"></div>
-        </ul>
-    </main> -->
+    </main>
 
-        <footer class="footer">
+    <footer class="footer">
+        <div class="footer__wrapper">
             <section class="footer__contacts">
                 <!-- должна быть карта -->
-                <h3>
-                    Smart&Fast Studio
-                </h3>
-                <p class="main-text">
-                    ул. Кирова, 240<br>
-                    г. Новосибирск<br>
-                    <a href="tel:+79132504486">+7(913) 250-44-86</a>
-                </p>
-                <button type="button">Напишите нам</button>
+                <div class="footer__contact">
+                    <div class="footer__contact-wrapper">
+                        <h3>
+                            Дизайн-студия «Nёrds»
+                        </h3>
+                        <p class="main-text">
+                            ул. Кирова, 240<br>
+                            г. Новосибирск<br>
+                            <a class="main-text" href="tel:+79132504486">+7(913) 250-44-86</a>
+                        </p>
+                        <button class="button footer__button" type="button">Напишите нам</button>
+                    </div>
+                </div>
             </section>
 
             <section class="footer__socials">
                 <h2>Наши социальные сети</h2>
                 <ul class="main-list">
                     <li class="list-item">
-                        <a href="https://vk.com/id703912881" target="_blank">
-                            <img src="images/vk-tg/bxl-vk.svg" alt="Ссылка Вконтакте">
+                        <a class="list-item__tg" href="https://vk.com/id703912881" target="_blank">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZdJREFUSEvtlu01BGEMhZ+tgA5QATqgAlSACugAFaACdEAFqwM6QAd04Nw9887J3M187HDsD5ufmST3zc1NdicsySZLwmUF/GfM/2+q14GzwPUncGvcbwLH5nsHHpIZKfYAUF1ZIy5SfQlcWIFT4D74zoHrBGSrKhw/CWgjOL7CIxrrtAdMregTcJh0GAvq8z7wHOJOgDvLEyvyz8zFJXrXLMG7EQNOtwNn3e5EVhz4xuasNzReCmQjicDZOK6qvLonB5Yg3npm2AWs/Jc4S+ADkL9h2R5nVD4CR1VmF/ArsG0YPoZ0xnJK/pqRz7ooPAMWvRKhBBptjuI2cRV/VlzCU9dSposrmc7Mla1Za8elSEZbG0CbX2MTU3PWdaslf+2mU/4r4H0/EtlRyYAlIOlCInRxKV6nVzqorQ9YgdkVcvCo3GwrFN84v0OAlSTa1Y2fyvIAX5kMXOLcLddrKHBZM9ElBvwBmXozcdbrtQhwpFez174XJgSSmR4Zr5aYkBZWf/YWXdHx8WNnPB6xylwB/5jCoQW+Aea6TR+c/Af3AAAAAElFTkSuQmCC"/>
                         </a>
                     </li>
                     <li class="list-item">
-                        <a href="https://t.me/qrot13" target="_blank">
-                            <img src="images/vk-tg/bxl-telegram.svg" alt="Ссылка в телеграм">
+                        <a class="list-item__vk" href="https://t.me/qrot13" target="_blank">
+                      
                         </a>
                     </li>
                 </ul>
                 <p class="footer__socials-text">
-                    Давайте дружить, это выгодно!
-                </p>
-                <p class="main-text">
-                    Скидка 10% для друзей из социальных сетей.
+                    Давайте дружить, это выгодно!<br>
+                    <span class="main-text">Скидка 10% для друзей из социальных сетей.</span>
                 </p>
             </section>
-        </footer>
-
-        <!-- popup -->
-        <div class="popup">
-            <a class="popup-link popup__link" href="#">Напишите нам</a>
-            <form action="#" method="post">
-                <label class="popup__text" for="user-name">Ваше имя:</label>
-                <input type="text" name="user-name" id="user-name" placeholder="Имя Фамилия">
-                <label class="popup__text" for="email">Ваш email:</label>
-                <input type="email" name="email" id="email" placeholder="email@example.ru">
-                <label class="popup__text">Сообщение:
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="В свободной форме"></textarea>
-                </label>
-                <button class="button popup__button" type="submit">Отправить</button>
-            </form>
         </div>
+    </footer>
+
+    <!-- popup -->
+    <div class="popup">
+        <a class="popup-link popup__link" href="#">Напишите нам</a>
+        <form action="#" method="post">
+            <label class="popup__text" for="user-name">Ваше имя:</label>
+            <input type="text" name="user-name" id="user-name" placeholder="Имя Фамилия">
+            <label class="popup__text" for="email">Ваш email:</label>
+            <input type="email" name="email" id="email" placeholder="email@example.ru">
+            <label class="popup__text">Сообщение:
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+            </label>
+            <button class="button popup__button" type="submit">Отправить</button>
+        </form>
+    </div>
 
 </body>
 
