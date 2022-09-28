@@ -387,9 +387,14 @@ td {
   border-radius: 50%;
 }
 .list-item__vk svg {
-  color: #00ca74;
+  display: flex;
+align-items: center;
+justify-content: center;
 }
 .list-item__tg {
+  display: flex;
+align-items: center;
+justify-content: center;
 }
 .footer__socials-text {
   width: 80%;
