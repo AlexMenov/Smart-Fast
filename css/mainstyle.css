@@ -386,12 +386,14 @@ td {
   background: linear-gradient(0deg, #e1e1e1, #e1e1e1), #ffffff;
   border-radius: 50%;
 }
-.list-item__vk svg {
+.list-item__vk {
+  font-size: 25px;
   display: flex;
 align-items: center;
 justify-content: center;
 }
 .list-item__tg {
+  font-size: 25px;
   display: flex;
 align-items: center;
 justify-content: center;
